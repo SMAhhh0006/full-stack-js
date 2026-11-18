@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="practice.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body class="body">
+        <div class="all-start">
+            <div class="main-count">
+                <h2 class="text-main" id="homeP">HOME</h1>
+                <div class="count-background"><h1 class="text-second" id="count-h"></h1></div>
+                <div class="part-btn">
+                  <button class="count-btn" id="h-btn-1" onclick="addH1()">+1</button>
+                  <button class="count-btn" id="h-btn-2" onclick="addH2()">+2</button>
+                  <button class="count-btn" id="h-btn-3" onclick="addH3()">+3</button>
+                </div>
+                <button class="clean-btn" onclick="cleanH()">Clean</button>  
+            </div>
+            <div class="main-count">
+                <h2 class="text-main" id="guestP">GUEST</h1>
+                <div class="count-background"><h1 class="text-second" id="count-g"></h1></div>   
+                <div class="part-btn">
+                    <button class="count-btn" id="g-btn-1" onclick="addG1()">+1</button>
+                    <button class="count-btn" id="g-btn-2" onclick="addG2()">+2</button>
+                    <button class="count-btn" id="g-btn-3" onclick="addG3()">+3</button>
+                </div>
+                <button class="clean-btn" onclick="cleanG()">Clean</button>
+            </div>
+        </div>
+        <script src="practice.js"></script>
+    </body>
+</html>

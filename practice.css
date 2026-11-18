@@ -1,0 +1,70 @@
+@font-face{
+    font-family: 'DigitTech7';
+    src: url('digit-tech.7.ttf')
+    format('truetype');
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.all-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    background-color: #181F43ff;
+    border-radius: 40px;
+    padding: 0 0 60px 0;
+}
+.text-main{
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+}
+.text-second {
+    font-family: 'DigitTech7',sans-serif;
+    color: #ff3333;
+    font-size: 120px;
+}
+.main-count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count-background{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count-btn{
+    background-color: #181F43ff;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 20px;
+
+}
+.part-btn {
+    margin-bottom: 20px;
+}
+.clean-btn {
+    width: 60px;
+    height: 30px;
+    background-color: #181F43ff;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
